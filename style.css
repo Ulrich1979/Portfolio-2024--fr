@@ -148,62 +148,47 @@ p {
 
 /* WORK SECTION */
 
-.work-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
-}
-
-.work-item {
-    max-width: 48%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    overflow: hidden;
-    border: 1px solid var(--col-three);
-    border-radius: 2rem;
-    text-decoration: none;
-    transition: .4s;
-    transition-timing-function: ease-in-out;
-}
-
-a.work-item:hover {
-    box-shadow: 0 0 .85rem var(--col-two);
-}
-
-.work-item img{
-    height: 30vw;
-    aspect-ratio: 2 / 1;
-    object-fit: cover;
-    border-bottom: 1px solid var(--col-three);
-}
-
-.work-desc {
+.work-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 5rem;
+    max-width: 80%;
+  }
+  
+  .card__context {
+    background-color: #dde2e4;
+    border: .5rem solid #edf2f4;
     padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-.work-desc > * {
-    margin-bottom: 1rem;
-}
-
-.work-desc h3 {
-    font-size: 1.25rem;
-    letter-spacing: -0.02rem;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-style: dotted;
-}
-
-.work-desc p {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-}
+    margin-left: -2rem;
+    max-width: 35%;
+  }
+  
+  .card__title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .card__skills {
+    padding-top: 2rem;
+    font-size: .9rem;
+  }
+  
+  .skills__item {
+    display: inline;
+    white-space: nowrap;
+    padding: .5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #2b2d42;
+    line-height: 3rem;
+  }
 
 /* SERVICE SECTION */
 
