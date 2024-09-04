@@ -143,7 +143,6 @@ p {
     object-fit: cover;
     border: none;
     border-radius: 2rem;
-    
 }
 
 /* WORK SECTION */
@@ -162,17 +161,16 @@ p {
     max-width: 80%;
   }
   
+  .card__img {
+    border-radius: 2rem;
+  }
+
   .card__context {
-    background-color: #dde2e4;
-    border: .5rem solid #edf2f4;
+    background-color: var(--col-three);
+    border: .5rem solid var(--col-one);
     padding: 1rem;
     margin-left: -2rem;
     max-width: 35%;
-  }
-  
-  .card__title {
-    font-family: "Comfortaa", sans-serif;
-    font-size: 3rem;
   }
   
   .card__skills {
@@ -186,7 +184,7 @@ p {
     padding: .5rem 1rem;
     margin-right: 1rem;
     border-radius: 2rem;
-    border: 1px solid #2b2d42;
+    border: 1px solid var(--col-two);
     line-height: 3rem;
   }
 
