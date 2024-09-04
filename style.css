@@ -161,16 +161,14 @@ p {
     max-width: 80%;
   }
   
-  .card__img {
+  .card__img__img {
+    width: 100%;
     border-radius: 2rem;
   }
 
   .card__context {
-    background-color: var(--col-three);
-    border: .5rem solid var(--col-one);
     padding: 1rem;
-    margin-left: -2rem;
-    max-width: 35%;
+    max-width: 45%;
   }
   
   .card__skills {
