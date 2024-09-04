@@ -157,6 +157,10 @@ p {
     gap: 1rem;
   }
   
+  .card__img, .card__context {
+    flex: 1 0 0;
+  }
+
   .card__img__img {
     width: 100%;
     border-radius: 2rem;
