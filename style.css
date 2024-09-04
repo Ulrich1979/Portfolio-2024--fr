@@ -64,19 +64,16 @@ p {
 
 .hero-sec, .service-sec, footer {
     color: var(--col-one);
+    background-color: var(--col-two);
 }
 
 .comp-sec, .work-sec {
     color: var(--col-two);
+    background-color: var(--col-one);
 }
 
 
 /* HEADER AND HERO */
-
-
-.hero-sec {
-    background: var(--col-two);
-}
 
 .hero-container {
     display: grid;
@@ -188,10 +185,6 @@ p {
 
 /* SERVICE SECTION */
 
-.service-sec {
-    background: var(--col-two);
-}
-
 .service-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -287,6 +280,4 @@ button.active:after {
 footer {
     height: 80px;
     padding: 1rem max(calc((100vw - 1000px) / 2),1rem);
-    color: var(--col-one);
-    background: var(--col-two);
 }
