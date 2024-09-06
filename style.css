@@ -152,7 +152,7 @@ p {
 
   .card {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
     padding-top: 5rem;
     gap: 1rem;
   }
@@ -168,10 +168,11 @@ p {
 
   .card__context {
     padding: 1rem;
-    max-width: 45%;
   }
   
-  .card__skills {
+  .card__footer {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 2rem;
   }
 
