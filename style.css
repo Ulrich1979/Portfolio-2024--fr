@@ -212,8 +212,7 @@ button.accordion {
     text-align: left;
     transition: 0.5s;
     padding: .5rem 1rem;
-    background-color: var(--col-three);
-    border: none;
+    border: 1px solid var(--col-three);
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
@@ -226,7 +225,6 @@ button.accordion:after {
 }
 
 button.accordion:active {
-    background-color: var(--col-three);
 }
 
 button.active:after {
