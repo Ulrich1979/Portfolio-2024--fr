@@ -6,6 +6,7 @@
   --col-three: #8d99ae;
   --col-two: #2b2d42;
   --col-four: #ef233c;
+  --col-five: #00c1a0;
 }
 
 
@@ -63,7 +64,7 @@ p {
 
 .hero-sec, .service-sec, footer {
     color: var(--col-one);
-    background-color: var(--col-two);
+    background-image: linear-gradient(32deg, var(--col-five), var(--col-two));
 }
 
 .comp-sec, .work-sec {
